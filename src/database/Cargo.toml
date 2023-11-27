@@ -1,0 +1,13 @@
+# src/database/Cargo.toml
+
+[package]
+name = "database"
+version = "0.1.0"
+edition = "2021"
+
+# Specify a library target
+[lib]
+name = "database"
+path = "vulnerability_database.rs"  # Replace with your main source file name
+
+# Dependencies specific to the database module
