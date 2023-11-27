@@ -1,0 +1,17 @@
+# src/crawler/Cargo.toml
+
+[package]
+name = "crawler"
+version = "0.1.0"
+edition = "2021"
+
+# Specify a library or binary target
+[lib]
+name = "crawler"
+path = "crawler.rs"  # Assuming your main source file is named crawler.rs
+
+# Dependencies specific to the crawler module
+reqwest = "0.11.22"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }

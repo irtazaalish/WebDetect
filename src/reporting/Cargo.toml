@@ -1,0 +1,13 @@
+# src/reporting/Cargo.toml
+
+[package]
+name = "reporting"
+version = "0.1.0"
+edition = "2021"
+
+# Specify a library target
+[lib]
+name = "reporting"
+path = "reporting.rs"  # Replace with your main source file name
+
+# Dependencies specific to the reporting module

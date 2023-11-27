@@ -1,0 +1,13 @@
+# src/scanner/Cargo.toml
+
+[package]
+name = "scanner"
+version = "0.1.0"
+edition = "2021"
+
+# Specify a library target
+[lib]
+name = "scanner"
+path = "mod.rs"  # Replace with your main source file name
+
+# Dependencies specific to the scanner module

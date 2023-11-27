@@ -1,0 +1,25 @@
+[package]
+name = "web_detect"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+tokio = { version = "1", features = ["full"] }
+reqwest = "0.11.22"
+serde = { version = "1", features = ["derive"] }
+
+
+[dependencies.crawler]
+path = "src/crawler"
+
+[dependencies.scanner]
+path = "src/scanner"
+
+[dependencies.reporting]
+path = "src/reporting"
+
+[dependencies.database]
+path = "src/database"
